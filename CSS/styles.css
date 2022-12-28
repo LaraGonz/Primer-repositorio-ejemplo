@@ -1,0 +1,69 @@
+* {
+    color:blue;
+} /**Esto define el azul como color por defecto, pero cada cambio que
+defino abajo, pisa este elemento: concepto "en cascada"*/
+
+p, span {
+    color: red;
+    width: 300px;
+}
+
+/**Esto es un comentario en CSS*/
+
+h1 {
+    font-family: 'Rubik Vinyl', cursive;
+    font-weight: bold;
+
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    /**
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    Arriba, a la derecha, abajo, a la izquierda */
+    margin: 30px 15px 10px 0px;
+
+    color: blueviolet
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+#parrafo_especial {
+    color: brown;
+    font-size: 23px;
+    border: 1px solid olive;
+}
+
+.estaesmiclase {
+    font-weight: bold;
+    color: purple;
+}
+
+section h2 {
+    font-weight: bold;
+    color: yellow;
+}
+
+/** esto es un box que permite incluir el padding y border adentro de la caja de responsive web design
+* {
+    box-sizing: border-box;
+}  */
+
+.menu {
+    width: 25%;
+    float: left;
+}
+
+.main {
+    width: 75%;
+    float: left;
+}
+
